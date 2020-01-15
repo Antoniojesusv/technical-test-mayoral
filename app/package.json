@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Antoniojesusv/technical-test-mayoral/issues"
   },
-  "homepage": "https://github.com/Antoniojesusv/technical-test-mayoral#readme"
+  "homepage": "https://github.com/Antoniojesusv/technical-test-mayoral#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
