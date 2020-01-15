@@ -1,0 +1,19 @@
+{
+  "name": "technical-test-mayoral",
+  "version": "1.0.0",
+  "description": "This is a technical test",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Antoniojesusv/technical-test-mayoral.git"
+  },
+  "author": "Antonio Jesús Vázquez Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antoniojesusv/technical-test-mayoral/issues"
+  },
+  "homepage": "https://github.com/Antoniojesusv/technical-test-mayoral#readme"
+}
