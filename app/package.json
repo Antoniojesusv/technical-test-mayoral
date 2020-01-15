@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Antoniojesusv/technical-test-mayoral#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
