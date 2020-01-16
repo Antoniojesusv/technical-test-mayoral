@@ -11,20 +11,337 @@
     <title>Technical test mayoral</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/normalize.css" />
-    <link rel="stylesheet" href="./assets/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/mayoral.css" />
   </head>
   <body>
-    <header>
-      <h1>Hola Mayoral</h1>
-    </header>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar">
+        <div class="p-4 pt-5">
+          <ul class="list-unstyled components mb-5">
+            <li>
+              <a href="#" class="pagesLink">Girls</a>
+            </li>
+            <li>
+              <a href="#" class="pagesLink">Boys</a>
+            </li>
+          </ul>
 
-    <script src="" async defer></script>
+          <div class="footer"></div>
+        </div>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content" class="container-fluid p-4 p-md-5">
+        <nav
+          class="container row navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <div class="container-fluid col">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <div class="input-group col-9">
+              <input
+                id="searchInputId"
+                type="text"
+                class="form-control"
+                placeholder="Search a product"
+              />
+              <div class="input-group-append">
+                <button
+                  id="searchButtonId"
+                  class="btn btn-secondary"
+                  type="button"
+                >
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <h2 class="mb-4 boys">Boys</h2>
+        <div class="cards-row row justify-content-around boys">
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Basic bodysuit
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Long sleeved basic
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Denim jackets
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Fleece sweatshirt
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Jacket
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Tulle dungaree
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Combined dress
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02446-058-800-2.JPG?v=20190503141135"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Ribbed tights
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="mb-4 girls" style="display:none">Girls</h2>
+        <div
+          class="cards-row row justify-content-around girls"
+          style="display:none"
+        >
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Formal Mary Jane
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Padded boots
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Knit kitten
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Bow socks
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Basic fleece
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Double print knit
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Embroidered border
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-12 col-sm-5 col-md-5 mb-5 px-0">
+            <img
+              class="card-img-top"
+              src="https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/19-02425-078-800-2.JPG?v=20190422131656"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="product-name">
+                Embroidered fleece
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/jquery.min.js" defer></script>
+    <script src="./controllers/mayoral.controller.js" defer></script>
+    <script src="./controllers/main.js" defer></script>
   </body>
 </html>
